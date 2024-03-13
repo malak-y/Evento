@@ -1,0 +1,175 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222;;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #333;
+    position: fixed;
+    padding: 0.8rem 8%;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    justify-content:space-between;
+    /*align-items: flex-end;*/
+    top:0;
+    right: 0;
+    left:0;
+}
+nav.active {
+    transform: translateX(0);
+}
+
+.logo{
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+}
+.logo span{
+    color: aliceblue;
+}
+html{
+    scroll-behavior:smooth ;
+    --blue:#1e90ff /*--name ay name m4 4rt blue */
+}
+nav a{
+    font-weight: lighter;
+    font-size:medium;
+    color:var(--blue);
+    margin-right: 20px; /*put spaces between a elements  */
+}
+nav a:hover{
+    
+    color:blueviolet;
+}
+section{
+    padding: 40px;
+}
+.container{
+    text-align: center;
+    padding-top: 2rem;
+    margin: 2rem;
+    margin-right: 0%;
+}
+.eat{
+    margin-top: 10px;
+    padding: 10px;
+}
+#gg{
+    color:aliceblue;
+    text-align:end;
+    font-size:20px;
+}
+h6{
+    color:var(--blue)
+}
+img{
+    padding: 15px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+.V{
+    color: var(--blue);
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 0.5em;
+   
+}
+.box{
+    padding: 2.5rem 0;
+    background-color: #333;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.title{
+    background-color: var(--blue);
+    padding: 1.5rem 0;
+}
+.price{
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+ul{
+    margin-top: 10px;
+    padding: 1rem 0;
+}
+li{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+i{
+    color:var(--blue);
+    padding-right: 0.5rem;
+}
+.btn{
+    cursor:pointer;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    background-color:cadetblue;
+}
+.btn:hover{
+    background-color:var(--blue) ;
+}
+.aboutc {
+    gap: 0.5rem;
+  }
+  .imageandtext {
+    padding: 1rem;
+    margin: 1rem;
+    float: left ;
+  }
+  
+  .klam {
+    
+    margin-left: 40%; /* Adjust this value to create the desired spacing between the image and text */
+  }
+footer{
+    background-color:black;
+}
+.n{
+   --border: 2px solid #333;
+   border-top: var(--border);
+    padding: 2rem;
+    text-align: center;
+    background-color: #333;
+}
+.n p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.m{
+    display: flex;
+    justify-content: space-around;
+}
+.m div{
+    background-color:#333;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.y{
+background-color:#333;
+}
+label{
+    color: var(--blue);
+}
+input{
+    color:#222
+}
